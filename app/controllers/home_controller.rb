@@ -2,14 +2,9 @@ class HomeController < ApplicationController
   def index
   end
   def weather 
+      @number='1','2','3'
   end
-  
-  def five_rainy
-  end
-  def five_sunny
-  end
-  def five_cloudy
-  end
+
   
   
 end

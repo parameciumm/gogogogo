@@ -1,25 +1,322 @@
-<h1> 최고 온도를 고르세요 </h1>
- <!-- Dropdown Trigger "~5" -->
- <!-- Dropdown Trigger "~5" -->
-  <a class='dropdown-button btn' href='#' data-activates='dropdown1'>~5</a>
+<!--두번째페이지-->
+<body background="/assets/bgweather.png">
+<div id="container" class="container">
+<h1 style="padding-left: 80px;padding-top:40px;"><img src="/assets/title.png" id="cloud" ></h1>
+<div class="container2" style="padding-top: 40px;padding-left:210px;">
+    <!-- 5도 -->
+  <a class='dropdown-button btn grey darken-4'style='height:60px;width:130px;' href='#' data-activates='dropdown1'>
+   <img src="/assets/under5.png" style="
+    padding-top: 21px;
+    padding-right: 76px;
+    width: 150px;
+    height: 37px;"></a>
 
   <!-- Dropdown Structure -->
   <ul id='dropdown1' class='dropdown-content'>
-    <li><a href="five_cloudy">구름</a></li>
-    <li><a href="five_rainy">비옴</a></li>
-    <li><a href="five_sunny">맑음</a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal1"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/sunny.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal2"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/cloudy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal3"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/rainy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
   </ul>
   
-   <!-- Dropdown Trigger -->
-  <a class='dropdown-button btn' href='#' data-activates='dropdown1'>6~9</a>
+  <!-- Modal Structure -->
+       <div id="modal1" class="modal white">
+       <div class="modal-content white" style="width:660px;height:440px;padding-left: 47px;padding-bottom: 0px;padding-top: 0px;">
+       <img id="sunny5" src="/assets/sunny5.png" style='width:660px; height:400px;'></p>
+       </div>
+
+  </div>
+  
+     <!-- Modal Structure -->
+       <div id="modal2" class="modal white">
+       <div class="modal-content white" style="width:660px;height:440px;padding-left: 47px;padding-bottom: 0px;padding-top: 0px;">
+       <img id="cloudy5" src="/assets/cloudy5.png" style='width:660px; height:400 px;'>
+       </div>
+
+  </div>
+   
+   <!-- Modal Structure -->
+       <div id="modal3" class="modal white">
+      <div class="modal-content white" style="width:660px;height:440px;padding-left: 47px;padding-bottom: 0px;padding-top: 0px;">
+       <img id="rainy5" src="/assets/rainy5.png" style='width:660px; height:400px;'>
+       </div>
+
+  </div>
+  
+  
+  
+    <!-- 6~9도도 -->
+  <a class='dropdown-button btn grey darken-4' style='height:60px;width:130px' href='#' data-activates='dropdown2'><img src="/assets/6to9.png" style="
+    padding-top: 21px;
+    padding-right: 76px;
+    width: 150px;
+    height: 37px;"></a>
 
   <!-- Dropdown Structure -->
   <ul id='dropdown2' class='dropdown-content'>
-    <li><a href="#!" class="btn" onclick="Materialize.fadeInImage('#image-test')">Click Me</a>
-        </li>
-    <li><a href="#!">two</a></li>
-    <li class="divider"></li>
-    <li><a href="#!">three</a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal4"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/sunny.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal5"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/cloudy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal6"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/rainy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
   </ul>
   
+  <!-- Modal Structure -->
+       <div id="modal4" class="modal white">
+       <div class="modal-content white" style="width:660px;height:440px;padding-left: 47px;padding-bottom: 0px;padding-top: 0px;">
+       <img id="sunny9" src="/assets/sunny9.png" style='width:660px; height:400px;'>
+       </div>
+
+  </div>
   
+    <!-- Modal Structure -->
+       <div id="modal5" class="modal white" >
+       <div class="modal-content white" style="width:660px;height:440px;padding-left: 47px;padding-bottom: 0px;padding-top: 20px;">
+       <img id="cloudy9" src="/assets/cloudy9.png" style='width:660px; height:400px;'>
+       </div>
+
+  </div>
+   
+   <!-- Modal Structure -->
+       <div id="modal6" class="modal white">
+       <div class="modal-content white" style="width:660px;height:440px;padding-left: 47px;padding-bottom: 10px;padding-top: 15px;">
+       <img id="rainy9" src="/assets/rainy9.png" style="width:660px; height:412px;">
+       </div>
+       </div>
+  
+  
+  
+   <!-- 10~11도도 -->
+  <a class='dropdown-button btn grey darken-4' style='height:60px;width:130px' href='#' data-activates='dropdown3'><img src="/assets/10to11.png" style="
+    padding-top: 21px;
+    padding-right: 76px;
+    width: 150px;
+    height: 37px;"></a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown3' class='dropdown-content'>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal7"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/sunny.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal8"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/cloudy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal9"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/rainy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+  </ul>
+  
+  <!-- Modal Structure -->
+       <div id="modal7" class="modal white">
+       <div class="modal-content white" style="width:660px;height:440px;padding-left: 47px;padding-bottom: 0px;padding-top: 0px;">
+       <img id="sunny11" src="/assets/sunny11.png" style='width:660px; height:400px;'>
+       </div>
+
+  </div>
+  
+    <!-- Modal Structure -->
+       <div id="modal8" class="modal white">
+       <div class="modal-content white" style="width:660px;height:440px;padding-left: 47px;padding-bottom: 0px;padding-top: 0px;">
+       <img id="cloudy11" src="/assets/cloudy11.png" style='width:660px; height:452px;'>
+       </div>
+
+  </div>
+   
+   <!-- Modal Structure -->
+       <div id="modal9" class="modal white">
+       <div class="modal-content white" style="width:660px;height:440px;padding-left: 47px;padding-bottom: 0px;padding-top: 0px;">
+       <img id="rainy11" src="/assets/rainy11.png" style='width:660px; height:452px;'>
+       </div>
+
+  </div>
+  
+  
+   <!-- 12~16도도 -->
+  <a class='dropdown-button btn grey darken-4' style='height:60px;width:130px' href='#' data-activates='dropdown4'><img src="/assets/12to16.png" style="
+    padding-top: 21px;
+    padding-right: 76px;
+    width: 150px;
+    height: 37px;"></a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown4' class='dropdown-content'>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal10"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/sunny.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal11"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/cloudy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal12"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/rainy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+  </ul>
+  
+  <!-- Modal Structure -->
+       <div id="modal10" class="modal white">
+      <div class="modal-content white" style="width:660px;height:440px;padding-left: 47px;padding-bottom: 0px;padding-top: 0px;">      
+      <img id="sunny16" src="/assets/sunny16.png" style='width:660px; height:452px;'>
+       </div>
+
+  </div>
+  
+    <!-- Modal Structure -->
+       <div id="modal11" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="cloudy16" src="/assets/cloudy16.png" style='width:660px; height:452px;'></p>
+       </div>
+
+  </div>
+   
+   <!-- Modal Structure -->
+       <div id="modal12" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="rainy16" src="/assets/rainy16.png" style='width:660px; height:452px;'></p>
+       </div>
+
+  </div>
+ 
+ <div class="container2" style="padding-top: 40px;padding-left: 210px;"></div>
+ 
+   <!-- 17~19도도 -->
+  <a class='dropdown-button btn grey darken-4' style='height:60px;width:130px' href='#' data-activates='dropdown5'><img src="/assets/17to19.png" style="
+    padding-top: 21px;
+    padding-right: 76px;
+    width: 150px;
+    height: 37px;"></a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown5' class='dropdown-content'>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal13"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/sunny.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal14"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/cloudy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal15"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/rainy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+  </ul>
+  
+  <!-- Modal Structure -->
+       <div id="modal13" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="sunny19" src="/assets/sunny19.png" style='width:660px; height:452px;'></p>
+       </div>
+
+  </div>
+  
+    <!-- Modal Structure -->
+       <div id="modal14" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="cloudy19" src="/assets/cloudy19.png" style='width:660px; height:452px;'></p>
+       </div>
+
+  </div>
+   
+   <!-- Modal Structure -->
+       <div id="modal15" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="rainy19" src="/assets/rainy19.png" style='width:660px; height:452px;'></p>
+       </div>
+
+  </div>
+  
+  
+     <!-- 20~22도도 -->
+  <a class='dropdown-button btn grey darken-4' style='height:60px;width:130px' href='#' data-activates='dropdown6'><img src="/assets/20to22.png" style="
+    padding-top: 21px;
+    padding-right: 76px;
+    width: 150px;
+    height: 37px;"></a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown6' class='dropdown-content'>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal16"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/sunny.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal17"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/cloudy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal18"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/rainy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+  </ul>
+  
+  <!-- Modal Structure -->
+       <div id="modal16" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="sunny22" src="/assets/sunny22.png" style='width:660px; height:452px;'></p>
+       </div>
+
+  </div>
+  
+    <!-- Modal Structure -->
+       <div id="modal17" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="cloudy22" src="/assets/cloudy22.png" style='width:660px; height:452px;'></p>
+       </div>
+
+  </div>
+   
+   <!-- Modal Structure -->
+       <div id="modal18" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="rainy22" src="/assets/rainy22.png" style='width:660px; height:452px;'></p>
+       </div>
+
+  </div>
+  
+  
+  
+     <!-- 23~26도도 -->
+  <a class='dropdown-button btn grey darken-4' style='height:60px;width:130px' href='#' data-activates='dropdown7'><img src="/assets/23to26.png" style="
+    padding-top: 21px;
+    padding-right: 76px;
+    width: 150px;
+    height: 37px;"></a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown7' class='dropdown-content'>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal19"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/sunny.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal20"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/cloudy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal21"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/rainy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+  </ul>
+  
+  <!-- Modal Structure -->
+       <div id="modal19" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="sunny26" src="/assets/sunny26.png" style='width:660px; height:452px;'></p>
+       </div>
+       </div>
+   
+    <!-- Modal Structure -->
+       <div id="modal20" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="cloudy26" src="/assets/cloudy26.png" style='width:660px; height:452px;'></p>
+       </div>
+       </div>
+   
+   <!-- Modal Structure -->
+       <div id="modal21" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="rainy26" src="/assets/rainy26.png" style='width:660px; height:452px;'></p>
+       </div>
+  </div>
+  
+  
+  
+     <!-- 27~ -->
+  <a class='dropdown-button btn grey darken-4' style='height:60px;width:130px' href='#' data-activates='dropdown8'><img src="/assets/27up.png" style="
+    padding-top: 21px;
+    padding-right: 76px;
+    width: 150px;
+    height: 37px;"></a>
+
+  <!-- Dropdown Structure -->
+  <ul id='dropdown8' class='dropdown-content'>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal22"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/sunny.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal23"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/cloudy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+   <li><a class="waves-effect waves-light modal-trigger" href="#modal24"><h9>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</h9><img id=cloud src="/assets/rainy.png" style='width:40px; height:40px paddingmargin-top:50px;'></a></li>
+  </ul>
+
+  <!-- Modal Structure -->
+       <div id="modal22" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="sunny27" src="/assets/sunny27.png" style='width:660px; height:430px;'></p>
+  </div>
+   </div>
+    <!-- Modal Structure -->
+       <div id="modal23" class="modal" style>
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <p><img id="cloudy27" src="/assets/cloudy27.png" style='width:660px; height:430px;'></p>
+       </div>
+       </div>
+   
+   <!-- Modal Structure -->
+       <div id="modal24" class="modal">
+       <div class="modal-content" style='width:660px; height:440px;'>
+       <img id="rainy27" src="/assets/rainy27.png" style='width:660px; height:430px;'>
+       </div>
+       </div>
+
+  
+<div class="container3"style="padding-top:;padding-left: 200px;padding-botton:80px ;padding-top: 130px;">
+<img src="/assets/fairyboy" style='height:70px;width:70px'>
+<img src="/assets/fairygirl" style='height:70px;width:70px'>
+  </div>
+ </div>
+ </div> 
+</body>
