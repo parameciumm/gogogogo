@@ -15,6 +15,8 @@
     $('.modal-trigger').leanModal();
   });
   
+  $('.fixed-action-btn').openFAB();
+ $('.fixed-action-btn').closeFAB();
   
     $(document).ready(function(){
       $('.parallax').parallax();
